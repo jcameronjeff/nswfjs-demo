@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+li {
+  list-style-type: none;
+  padding: 4px;
+  display: inline-flex;
+  font-weight: bold;
+}
+
+#message {
+  border-bottom: 2px solid black;
+}
+
+#app {
+  max-height: 500px;
+  width: 500px;
+  position: absolute;
+}
+#result {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 4px 0px #fff;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
